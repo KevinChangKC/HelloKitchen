@@ -1,0 +1,44 @@
+
+.woocommerce-input-wrapper input::placeholder{
+	opacity: .5 !important;
+}
+
+.woocommerce-input-wrapper textarea::placeholder{
+	opacity: .5 !important;
+}
+
+.form-element input::placeholder{
+	opacity: .5 !important;
+}
+
+.woocommerce-checkout-review-order-table .choose_cvs{
+	display: flex;
+}
+
+.woocommerce-checkout-review-order-table .choose_cvs td:last-child{
+	position: relative;
+  left: 60px;
+	width:100%;
+	  
+}
+
+.woocommerce-checkout-review-order-table .choose_cvs th{
+	width: 85px;
+    position: relative;
+}
+
+.woocommerce-checkout-review-order-table .choose_cvs th,
+.woocommerce-checkout-review-order-table .choose_cvs td{
+	border-bottom: none;
+}
+
+
+p#CVSStoreName_field.cvs-info{
+	padding-left: 15px;
+	padding-bottom: 5px;
+}
+
+
+.woocommerce-checkout-review-order-table .choose_cvs button{
+	margin-bottom: 5px;
+}
